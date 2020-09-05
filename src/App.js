@@ -10,8 +10,8 @@ import HomeIcon from "@material-ui/icons/Home"
 import Dashboard from "./Dashboard"
 import { createMuiTheme } from '@material-ui/core/styles';
 
-//const dataProvider = jsonServerProvider("http://jsonplaceholder.typicode.com")
-const dataProvider = jsonServerProvider("http://localhost:3001")
+const dataProvider = jsonServerProvider("http://jsonplaceholder.typicode.com")
+//const dataProvider = jsonServerProvider("http://localhost:3001")
 
 const theme = createMuiTheme({
   palette: {
